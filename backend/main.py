@@ -26,7 +26,7 @@ load_dotenv()
 MODEL_ID = os.getenv("MODEL_ID", "HanaSoummar/DarijaBERT-finetuned_model_with_LORA")
 HF_TOKEN = os.getenv("HF_TOKEN", None)
 
-# Your 10 classes (from your fine-tuning notebook)
+#  10 classes 
 CLASS_NAMES = [
     "Actualités",
     "Cuisine", 
